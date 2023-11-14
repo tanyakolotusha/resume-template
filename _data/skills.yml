@@ -1,12 +1,21 @@
 # Skills
 # Languages
 - skill: Languages 
-  description: I am fluent in 4 languages&#58; Czech, English, Ukrainian (mother tongue), Russian. 
+  description: I am fluent in 3 languages&#58; Czech, English, Ukrainian 
 
 # Computer literacy
-- skill: Microsoft Office suite, proficient with Windows and MacOS.
+- skill: Microsoft Office suite, proficient with Windows and MacOS
   
 
-# Digital content development and creation, basic level
+# Digital content development and creation
 - skill: Digital content development and creation
-  description: Copywriting, front-end web development, web-design. 
+  description: Copywriting, front-end web development, web-design 
+
+# Software
+- skill: Software
+  description: Sales Force, Hub Spot, Outreach, Gong, Figma, Notion 
+
+# Soft skills
+- skill: Soft skills
+  description: Excellent communication skill, confidence, active listener, resilience 
+
