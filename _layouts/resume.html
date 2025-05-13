@@ -49,31 +49,32 @@
       </header>
 
       {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
+<!-- begin Experience -->
+<section class="content-section">
 
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
+  <header class="section-header">
+    <h2>Experience</h2>
+  </header>
 
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
-
+{% assign grouped_experience = site.data.experience | group_by: "company" %}
+{% for company in grouped_experience %}
+  <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+    <h3 class="resume-item-title" itemprop="name">{{ company.name }}</h3>
+    {% for role in company.items %}
+      <h4 class="resume-item-details" itemprop="description">{{ role.position }} &bull; {{ role.duration }}</h4>
+      <p class="resume-item-copy">{{ role.summary }}</p>
+    {% endfor %}
+  </div><!-- end of resume-item -->
+{% endfor %}
+</section>
+<!-- end Experience -->
+{% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Education and Certificates</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -122,7 +123,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Skills and Tools</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">

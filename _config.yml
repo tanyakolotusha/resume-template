@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    Tetiana Kolotusha
+resume_name:                    Tetiana (Tanya) Kolotusha
 resume_title:                   ""
 
 # used for the contact button in _layouts/resume.html
@@ -23,8 +23,7 @@ resume_contact_address:         "London"
 resume_header_contact_info:     "London • +44 7365 863338 • tani.kolotusha@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I received a BA in Cultural Studies from Kyiv-Mohyla Academy in Kyiv, Ukraine, and an MA in History of Art from Charles
-University in Prague, Czech Republic. Fluent in three languages - English, Czech, Ukrainian. Skilled B2B sales executive with a customer centric approach. In my previous roles, I gained experience in the full sales cycle from prospecting to successfully closing deals. I’m a target-driven salesperson with an entrepreneurial spirit. My perspective in life and career is to always look for an opportunity to perfect my approach and the product delivered. I’m a strategic thinker with a growth mindset.</p>"
+resume_header_intro: "<p>Customer-focused Associate Product Manager with a strong background in Customer Success, UX research, and cross-functional collaboration in fast-paced tech environments. Skilled at identifying user pain points, transforming feedback into actionable product requirements, and working closely with design and engineering to deliver impactful solutions. Known for high empathy, analytical thinking, and a proactive mindset. Currently seeking a product-focused role after recent company pivot toward sales.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -38,10 +37,10 @@ resume_section_experience:      true
 resume_section_education:       true
 #resume_section_projects:        true
 resume_section_skills:          true
-#resume_section_recognition:     true
+resume_section_recognition:     false
 #resume_section_links:           true
-resume_section_associations:    true
-resume_section_interests:       true
+resume_section_associations:    false
+resume_section_interests:       false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
@@ -51,7 +50,7 @@ resume_social_links:
   #resume_dribbble_url:          "https://dribbble.com/jag"
   #resume_facebook_url:          "https://www.facebook.com/tanya.kolotusha"
   resume_linkedin_url:          "https://www.linkedin.com/in/tanya-kolotusha-008366172/"
-  resume_instagram_url:         "https://www.instagram.com/tanya_kolotusha/"
+  #resume_instagram_url:         "https://www.instagram.com/tanya_kolotusha/"
   #resume_website_url:           "http://joelglovier.com"
   #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
